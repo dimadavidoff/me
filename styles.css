@@ -30,7 +30,7 @@ header {
 }
 
 .menu li:last-child {
-    margin-right: 0;
+    margin-right: 30px;
 }
 
 .menu a {
