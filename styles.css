@@ -11,7 +11,14 @@ body, h1, h2, p {
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+
 }
+
+p {
+  margin-bottom: 1.5em;
+  line-height: 1.6;
+}
+
 
 header {
     background-color: #787878;
