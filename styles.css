@@ -34,12 +34,17 @@ header {
   position: relative;
 }
 
+.menu > li > a {
+  color: #ffffff; /* Menu text color */
+  text-decoration: none;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
   top: 1.8em;
   left: 0;
-  background-color: #1e1e1e;
+  background-color: #787878;
   padding: 0.5em;
   border-radius: 0.3em;
   z-index: 1000;
@@ -53,7 +58,7 @@ header {
 }
 
 .dropdown-content li a {
-  color: #ccc;
+  color: #ffffff;
   text-decoration: none;
 }
 
