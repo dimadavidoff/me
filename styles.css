@@ -16,31 +16,51 @@ body {
 header {
     background-color: #787878;
     color: #fff;
-    height: 50px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+
 .menu {
-    list-style-type: none;
-    text-align: center;
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.2vw;
 }
 
 .menu li {
-    display: inline;
-    margin-right: 30px;
+  position: relative;
 }
 
-.menu li:last-child {
-    margin-right: 30px;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 1.8em;
+  left: 0;
+  background-color: #1e1e1e;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  z-index: 1000;
+  min-width: 220px;
 }
 
-.menu a {
-    text-decoration: none;
-    color: white;
-    font-weight: none;
+.dropdown-content li {
+  display: block;
+  font-size: 0.9vw;
+  padding: 0.3em 0;
 }
+
+.dropdown-content li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 
 .section {
     padding: 40px;
