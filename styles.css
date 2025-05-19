@@ -98,6 +98,7 @@ footer {
     padding: 0;          /* Remove vertical padding */
     height: 40px;        /* Set fixed footer height */
     line-height: 40px;   /* Vertically center the text */
+	font-size: 18px;
 }
 
 p {
