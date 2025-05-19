@@ -16,7 +16,10 @@ body {
 header {
     background-color: #787878;
     color: #fff;
-    padding: 20px 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu {
