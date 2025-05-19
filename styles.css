@@ -97,12 +97,15 @@ p {
 .back-to-top {
   display: inline-block;
   margin-top: 20px;
-  text-decoration: none;
   font-size: 1.5rem;
-  color: #787878;
+  color: #787878;        /* gray color */
+  text-decoration: none; /* no underline */
   transition: color 0.3s ease;
+  cursor: pointer;
 }
 
 .back-to-top:hover {
-  color: #333;
+  color: #555555;        /* slightly darker gray on hover */
+  text-decoration: none; /* keep no underline on hover */
 }
+
