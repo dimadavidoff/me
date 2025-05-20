@@ -116,3 +116,9 @@ p {
   text-decoration: none; /* keep no underline on hover */
 }
 
+@media (max-width: 600px) {
+  .main {
+    padding: 10px;
+  }
+}
+
