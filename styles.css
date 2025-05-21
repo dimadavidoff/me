@@ -153,22 +153,20 @@ p {
     padding: 0 1em;
   }
 }
-
-/* Smaller font size specifically for portrait orientation */
-@media (max-width: 768px) and (orientation: portrait) {
+/* General mobile menu styles */
+@media (max-width: 768px) {
   .menu {
-    font-size: 3.0vw; /* smaller font size in portrait */
     justify-content: center;
-  }
-
-  .dropdown-content li {
-    font-size: 3vw;
+    font-size: 4.5vw; /* bigger font on mobile landscape */
   }
 }
-/* Default paragraph styles (desktop) */
-p {
-  font-size: 1rem;    /* or whatever your current size is */
-  padding: 0 1em;     /* padding only on desktop */
+
+/* Portrait mode: smaller, centered menu font */
+@media (max-width: 768px) and (orientation: portrait) {
+  .menu {
+    font-size: 3.5vw;  /* smaller font size in portrait */
+    justify-content: center; /* keep menu centered */
+  }
 }
 
 /* Mobile paragraph styles */
