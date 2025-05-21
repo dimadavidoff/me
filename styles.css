@@ -30,9 +30,9 @@ header {
   display: flex;
   gap: 1.5rem;
   font-size: 1.5vw;
-  justify-content: center; /* Always center */
-  padding: 0; /* avoid default ul padding */
-  margin: 0;  /* avoid default ul margin */
+  justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 .menu li {
@@ -112,8 +112,13 @@ footer {
 
 /* MOBILE STYLES */
 @media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
   .menu {
-    font-size: 7.5vw;     /* Bigger font on mobile landscape */
+    font-size: 4.5vw;
     justify-content: center;
   }
 
@@ -122,36 +127,48 @@ footer {
   }
 
   p {
-    font-size: 17vw;  /* Bigger paragraph on mobile */
-    padding: 0;        /* Remove padding on mobile */
-    
+    font-size: 1rem;
+    padding: 0;
   }
+
   h1 {
-    font-size: 25vw;       /* Bigger h1 on mobile */
+    font-size: 2rem;
   }
 
   h2 {
-    font-size: 22vw;       /* Bigger h2 on mobile */
-  }
-}
-
-/* Smaller menu font in portrait mode */
-@media (max-width: 768px) and (orientation: portrait) {
-  .menu {
-    font-size: 3.5vw;    /* Smaller font in portrait */
-    justify-content: center;
+    font-size: 1.75rem;
   }
 
-  .dropdown-content li {
-    font-size: 3vw;
-  }
-}
-
-@media (max-width: 768px) {
   .section {
-    padding: 1em 0.5em;     /* Reduce horizontal padding for more space */
+    padding: 1em 0.5em;
     max-width: 100%;
     box-sizing: border-box;
   }
+
+  .back-to-top {
+    font-size: 1rem;
+  }
 }
 
+/* Portrait override */
+@media (max-width: 480px) {
+  .menu {
+    font-size: 4.5vw;
+  }
+
+  .dropdown-content li {
+    font-size: 3.5vw;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}
