@@ -32,11 +32,11 @@ header {
 .menu {
   display: flex;
   gap: 1.5rem;
-  font-size: clamp(12px, 3vw, 18px); /* scales nicely */
-  flex-wrap: nowrap; /* prevent wrapping */
-  overflow-x: auto;  /* allow horizontal scroll if needed */
+  font-size: clamp(12px, 3vw, 18px);
+  flex-wrap: nowrap;
   justify-content: center;
 }
+
 
 
 .menu {
