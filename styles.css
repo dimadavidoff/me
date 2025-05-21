@@ -143,3 +143,32 @@ p {
   }
 }
 
+/* General mobile styles for max-width 768px */
+@media (max-width: 768px) {
+  .menu {
+    justify-content: center;
+    font-size: 4.5vw; /* default mobile font size */
+  }
+
+  .dropdown-content li {
+    font-size: 4vw;
+  }
+
+  p {
+    font-size: 4.5vw;
+    padding: 0 1em;
+  }
+}
+
+/* Smaller font size specifically for portrait orientation */
+@media (max-width: 768px) and (orientation: portrait) {
+  .menu {
+    font-size: 3.5vw; /* smaller font size in portrait */
+  }
+
+  .dropdown-content li {
+    font-size: 3vw;
+  }
+}
+
+
