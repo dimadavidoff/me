@@ -112,38 +112,35 @@ footer {
 
 /* MOBILE STYLES */
 @media (max-width: 768px) {
-  /* Параграфы */
   p {
-    font-size: clamp(14px, 4vw, 18px);
+    font-size: clamp(16px, 4.5vw, 20px);
     line-height: 1.6;
     padding: 0 1em;
   }
 
-  /* Заголовки */
   h1 {
-    font-size: clamp(28px, 7vw, 36px);
+    font-size: clamp(32px, 8vw, 40px);
     line-height: 1.2;
     margin-bottom: 0.5em;
   }
 
   h2 {
-    font-size: clamp(22px, 6vw, 32px);
+    font-size: clamp(26px, 7vw, 36px);
     line-height: 1.3;
     margin-bottom: 0.5em;
   }
 
+  .back-to-top {
+    font-size: clamp(16px, 4vw, 20px);
+    margin-top: 1em;
+  }
   /* Секции */
   .section {
     padding: 1em 1em;
     max-width: 100%;
     box-sizing: border-box;
     text-align: center;
-  }
 
-  /* Кнопка "наверх" */
-  .back-to-top {
-    font-size: clamp(14px, 4vw, 18px);
-    margin-top: 1em;
   }
 }
 
