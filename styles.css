@@ -126,3 +126,20 @@ p {
     font-size: 4vw;           /* Optional: slightly larger dropdown items */
   }
 }
+
+@media (max-width: 768px) {
+  .menu {
+    justify-content: center;
+    font-size: 4.5vw;
+  }
+
+  .dropdown-content li {
+    font-size: 4vw;
+  }
+
+  p {
+    font-size: 4.5vw;     /* Bigger paragraph text on mobile */
+    padding: 0 1em;       /* Optional minimal horizontal padding */
+  }
+}
+
