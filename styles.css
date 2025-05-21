@@ -113,7 +113,7 @@ footer {
 /* MOBILE STYLES */
 @media (max-width: 768px) {
   p {
-    font-size: 1rem;
+    font-size: 3rem;
     padding: 0;
   }
 
