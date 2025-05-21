@@ -163,7 +163,8 @@ p {
 /* Smaller font size specifically for portrait orientation */
 @media (max-width: 768px) and (orientation: portrait) {
   .menu {
-    font-size: 3.5vw; /* smaller font size in portrait */
+    font-size: 3.0vw; /* smaller font size in portrait */
+    justify-content: center;
   }
 
   .dropdown-content li {
