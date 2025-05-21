@@ -29,7 +29,7 @@ header {
   list-style: none;
   display: flex;
   gap: 1.5rem;
-  font-size: 1.5vw;
+  font-size: 1.5vw; /* вернули исходный размер */
   justify-content: center;
   padding: 0;
   margin: 0;
@@ -112,31 +112,17 @@ footer {
 
 /* MOBILE STYLES */
 @media (max-width: 768px) {
-  body {
-    font-size: 16px;
-    padding: 10px;
-  }
-
-  .menu {
-    font-size: 4.5vw;
-    justify-content: center;
-  }
-
-  .dropdown-content li {
-    font-size: 4vw;
-  }
-
   p {
-    font-size: 1rem;
+    font-size: 17vw;
     padding: 0;
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 25vw;
   }
 
   h2 {
-    font-size: 1.75rem;
+    font-size: 22vw;
   }
 
   .section {
@@ -144,31 +130,15 @@ footer {
     max-width: 100%;
     box-sizing: border-box;
   }
-
-  .back-to-top {
-    font-size: 1rem;
-  }
 }
 
-/* Portrait override */
-@media (max-width: 480px) {
+/* Портретный режим — чуть крупнее меню */
+@media (max-width: 768px) and (orientation: portrait) {
   .menu {
     font-size: 4.5vw;
   }
 
   .dropdown-content li {
     font-size: 3.5vw;
-  }
-
-  h1 {
-    font-size: 1.75rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  p {
-    font-size: 0.95rem;
   }
 }
