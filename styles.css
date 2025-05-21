@@ -14,15 +14,6 @@ p {
   line-height: 1.6;
 }
 
-
-header {
-    background-color: #787878;
-    color: #fff;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 header {
   background-color: #787878;
   color: #fff;
