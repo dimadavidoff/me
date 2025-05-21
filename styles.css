@@ -24,6 +24,26 @@ header {
     justify-content: center;
 }
 
+header {
+  background-color: #787878;
+  color: #fff;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;            /* Optional: avoid text touching edges */
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.5vw;
+  padding: 0;
+  margin: 0;
+  justify-content: center;    /* Extra safety */
+}
+
 .menu {
   margin: 0 auto; /* this centers if there's a fixed width */
 }
