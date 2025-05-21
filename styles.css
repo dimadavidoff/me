@@ -122,16 +122,16 @@ footer {
   }
 
   p {
-    font-size: 9vw;  /* Bigger paragraph on mobile */
+    font-size: 17vw;  /* Bigger paragraph on mobile */
     padding: 0;        /* Remove padding on mobile */
     
   }
   h1 {
-    font-size: 15vw;       /* Bigger h1 on mobile */
+    font-size: 25vw;       /* Bigger h1 on mobile */
   }
 
   h2 {
-    font-size: 12vw;       /* Bigger h2 on mobile */
+    font-size: 22vw;       /* Bigger h2 on mobile */
   }
 }
 
