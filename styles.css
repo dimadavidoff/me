@@ -124,6 +124,14 @@ footer {
   p {
     font-size: 7.5vw;  /* Bigger paragraph on mobile */
     padding: 0;        /* Remove padding on mobile */
+    
+  }
+  h1 {
+    font-size: 8vw;       /* Bigger h1 on mobile */
+  }
+
+  h2 {
+    font-size: 6vw;       /* Bigger h2 on mobile */
   }
 }
 
