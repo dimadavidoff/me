@@ -135,10 +135,10 @@ footer {
 /* Портретный режим — чуть крупнее меню */
 @media (max-width: 768px) and (orientation: portrait) {
   .menu {
-    font-size: 4.5vw;
+    font-size: 3.5vw;
   }
 
   .dropdown-content li {
-    font-size: 3.5vw;
+    font-size: 2.5vw;
   }
 }
