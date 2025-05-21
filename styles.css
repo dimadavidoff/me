@@ -138,3 +138,12 @@ footer {
     font-size: 3vw;
   }
 }
+
+@media (max-width: 768px) {
+  .section {
+    padding: 1em 0.5em;     /* Reduce horizontal padding for more space */
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
+
