@@ -24,6 +24,9 @@ header {
     justify-content: center;
 }
 
+.menu {
+  margin: 0 auto; /* this centers if there's a fixed width */
+}
 
 .menu {
   list-style: none;
