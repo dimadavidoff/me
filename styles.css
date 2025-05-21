@@ -30,14 +30,14 @@ header {
 
 
 .menu {
-  list-style: none;
   display: flex;
   gap: 1.5rem;
-  font-size: 1.5vw;
-  padding: 0;
-  margin: 0;
-  justify-content: center;    /* Extra safety */
+  font-size: clamp(12px, 3vw, 18px); /* scales nicely */
+  flex-wrap: nowrap; /* prevent wrapping */
+  overflow-x: auto;  /* allow horizontal scroll if needed */
+  justify-content: center;
 }
+
 
 .menu {
   margin: 0 auto; /* this centers if there's a fixed width */
