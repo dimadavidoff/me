@@ -137,12 +137,6 @@ p {
     font-size: 4vw;
   }
 
-  p {
-    font-size: 4.5vw;     /* Bigger paragraph text on mobile */
-    padding: 0 1em;       /* Optional minimal horizontal padding */
-  }
-}
-
 /* General mobile styles for max-width 768px */
 @media (max-width: 768px) {
   .menu {
@@ -171,5 +165,17 @@ p {
     font-size: 3vw;
   }
 }
+/* Default paragraph styles (desktop) */
+p {
+  font-size: 1rem;    /* or whatever your current size is */
+  padding: 0 1em;     /* padding only on desktop */
+}
 
+/* Mobile paragraph styles */
+@media (max-width: 768px) {
+  p {
+    font-size: 4.5vw;  /* bigger font on mobile */
+    padding: 0;        /* remove padding on mobile */
+  }
+}
 
