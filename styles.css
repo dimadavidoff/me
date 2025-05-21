@@ -116,3 +116,17 @@ p {
     padding: 15px;
   }
 }
+
+@media (max-width: 600px) {
+  .menu {
+    font-size: 4vw;          /* More readable text on small screens */
+    flex-wrap: wrap;         /* Allow wrapping if space is tight */
+    justify-content: center; /* Center the items */
+    gap: 0.8rem;             /* Slightly smaller gap */
+  }
+
+  .dropdown-content li {
+    font-size: 4vw; /* Adjust dropdown items too */
+  }
+}
+
